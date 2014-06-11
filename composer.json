@@ -15,13 +15,7 @@
             "MyProject\\MyPackage\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type":"vcs",
-            "url":"https://git.tonjoo.com/todiadiyatmo/almari.git"
-        }
-    ],
     "require": {
-        "lotus/almari": "dev-master"
+        "lotus/almari": "*"
     }
 }
