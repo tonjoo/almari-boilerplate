@@ -1,6 +1,6 @@
 {
     "name": "almari-framework-boilerplate",
-    "description": "Boilerplate for Almari mirco IoC framework",
+    "description": "Boilerplate for Almari micro IoC framework",
     "keywords": ["lotus", "framework","facade","ioc"],
     "license": "MIT",
     "homepage": "http://tonjoo.com",
