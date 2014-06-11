@@ -1,0 +1,27 @@
+{
+    "name": "almari-framework-boilerplate",
+    "description": "Boilerplate for Almari mirco IoC framework",
+    "keywords": ["lotus", "framework","facade","ioc"],
+    "license": "MIT",
+    "homepage": "http://tonjoo.com",
+    "authors": [
+        {
+            "name": "Todi Adiyatmo Wijoyo",
+            "homepage": "http://todiadiyatmo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { 
+            "MyProject\\MyPackacge\\": "src/"
+        }
+    },
+    "require": {
+        "lotus/almari": "dev-master"
+    },
+    "repositories": [
+        {
+            "type":"vcs",
+            "url":"https://git.tonjoo.com/todiadiyatmo/almari.git"
+        }
+    ]
+}
