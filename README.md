@@ -1,6 +1,6 @@
 Almari-Boilerplate
 ==================
-Boilerplate for Almari micro IoC framework.
+Boilerplate for [Almari](https://github.com/tonjoo/almari) micro IoC framework.
 
 Description
 -----------
