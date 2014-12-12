@@ -27,10 +27,8 @@ $aliasMapper = AliasMapper::getInstance();
 
 $alias['FooFacade'] = 'MyProject\MyPackage\Facade\FooFacade';
 
-$aliasMapper->facadeClassAlias($alias);
-
 //Register container to facade
-MyFacade::setFacadeContainer($app);
+$aliasMapper->facadeClassAlias($alias,$app);
 
 FooFacade::greet("Todi");
 
