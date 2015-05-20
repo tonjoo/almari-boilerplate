@@ -2,7 +2,7 @@
 
 namespace MyProject\MyPackage\Facade;
 
-use Lotus\Almari\Facade as Facade;
+use Tonjoo\Almari\Facade as Facade;
 
 class FooFacade extends Facade{
 

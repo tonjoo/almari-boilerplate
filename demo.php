@@ -1,6 +1,6 @@
 <?php
 include __DIR__.'/vendor/autoload.php';
-use Lotus\Almari\AliasMapper as AliasMapper;
+use Tonjoo\Almari\AliasMapper as AliasMapper;
 use MyProject\MyPackage\MyApplication as MyApplication;
 use MyProject\MyPackage\MyFacade as MyFacade;
 use MyProject\MyPackage\Foo as Foo;
@@ -22,13 +22,15 @@ $identical = $foo===$foo2;
 
 echo '$foo'." is identical with ".'$foo2'." = $identical <br><br>";
 
+MyFacade::setFacadeContainer($app);
+
 // Facading $foo to FooFacade
 $aliasMapper = AliasMapper::getInstance();
 
 $alias['FooFacade'] = 'MyProject\MyPackage\Facade\FooFacade';
 
 //Register container to facade
-$aliasMapper->facadeClassAlias($alias,$app);
+$aliasMapper->facadeClassAlias($alias);
 
-FooFacade::greet("Todi");
+FooFacade::greet("Todi",'asdds');
 
